@@ -41,7 +41,7 @@ class DLHamburguerContainerViewController: UIViewController {
         
         // We need to set a toolbar so the menu controller's content won't overlap the topbar.
         let toolbar = UIToolbar(frame: self.view.bounds)
-        toolbar.autoresizingMask = .FlexibleWidth | .FlexibleHeight
+        toolbar.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
         toolbar.barStyle = self.hamburguerViewController.menuBackgroundStyle.toBarStyle()
         self.containerView.addSubview(toolbar)
         
