@@ -220,7 +220,7 @@ class DLHamburguerViewController: UIViewController {
     func panGestureRecognized (recognizer: UIPanGestureRecognizer) {
         self.delegate?.hamburguerViewController?(self, didPerformPanGesture: recognizer)
         if self.gestureEnabled {
-            if recognizer.state == .Began { self.showMenuViewControllerAnimated(true, completion: nil) }
+            if recognizer.state == .Began { self.showMenuViewControllerAnimated(false, completion: nil) }
             self.containerViewController.panGestureRecognized(recognizer)
         }
     }
