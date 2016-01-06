@@ -12,7 +12,11 @@ class DLHamburguerNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: "panGestureRecognized:"))
+        
+        let screenEdgeRecognizer:UIScreenEdgePanGestureRecognizer  = UIScreenEdgePanGestureRecognizer(target: self,
+            action: "screenEdgePanGestureRecognized:")
+        screenEdgeRecognizer.edges = .Left
+        self.view.addGestureRecognizer(screenEdgeRecognizer)
     }
     
     override func didReceiveMemoryWarning() {
@@ -20,7 +24,7 @@ class DLHamburguerNavigationController: UINavigationController {
         // Dispose of any resources that can be recreated.
     }
     
-    func panGestureRecognized(sender: UIPanGestureRecognizer!) {
+    func screenEdgePanGestureRecognized(sender: UIPanGestureRecognizer!) {
         // dismiss keyboard
         self.view.endEditing(true)
         self.findHamburguerViewController()?.view.endEditing(true)
