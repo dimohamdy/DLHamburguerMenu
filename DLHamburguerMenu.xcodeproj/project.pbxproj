@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DA6CC441C4BF478006D5AD9 /* DLHamburguerContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6CC3F1C4BF478006D5AD9 /* DLHamburguerContainerViewController.swift */; };
+		3DA6CC461C4BF478006D5AD9 /* DLHamburguerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6CC411C4BF478006D5AD9 /* DLHamburguerNavigationController.swift */; };
+		3DA6CC471C4BF478006D5AD9 /* DLHamburguerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6CC421C4BF478006D5AD9 /* DLHamburguerViewController.swift */; };
 		66575E2F1AA8B1A1001D71F9 /* DLDemoRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66575E2E1AA8B1A1001D71F9 /* DLDemoRootViewController.swift */; };
 		66575E311AA8B4E5001D71F9 /* DLDemoMainContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66575E301AA8B4E5001D71F9 /* DLDemoMainContentViewController.swift */; };
 		66A298041AA72DD000F39729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A298031AA72DD000F39729 /* AppDelegate.swift */; };
 		66A298091AA72DD000F39729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A298071AA72DD000F39729 /* Main.storyboard */; };
 		66A2980B1AA72DD000F39729 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A2980A1AA72DD000F39729 /* Images.xcassets */; };
 		66A2980E1AA72DD000F39729 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A2980C1AA72DD000F39729 /* LaunchScreen.xib */; };
-		66A298281AA7343200F39729 /* DLHamburguerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A298271AA7343200F39729 /* DLHamburguerViewController.swift */; };
-		66A298401AA73D0A00F39729 /* DLHamburguerContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A2983F1AA73D0A00F39729 /* DLHamburguerContainerViewController.swift */; };
-		66A298421AA8974800F39729 /* DLHamburguerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A298411AA8974800F39729 /* DLHamburguerNavigationController.swift */; };
 		66A298451AA89A6200F39729 /* DLDemoMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A298441AA89A6200F39729 /* DLDemoMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DA6CC3F1C4BF478006D5AD9 /* DLHamburguerContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerContainerViewController.swift; sourceTree = "<group>"; };
+		3DA6CC411C4BF478006D5AD9 /* DLHamburguerNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerNavigationController.swift; sourceTree = "<group>"; };
+		3DA6CC421C4BF478006D5AD9 /* DLHamburguerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerViewController.swift; sourceTree = "<group>"; };
 		66575E2E1AA8B1A1001D71F9 /* DLDemoRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDemoRootViewController.swift; sourceTree = "<group>"; };
 		66575E301AA8B4E5001D71F9 /* DLDemoMainContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDemoMainContentViewController.swift; sourceTree = "<group>"; };
 		66A297FE1AA72DD000F39729 /* DLHamburguerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLHamburguerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,9 +31,6 @@
 		66A298081AA72DD000F39729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66A2980A1AA72DD000F39729 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66A2980D1AA72DD000F39729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		66A298271AA7343200F39729 /* DLHamburguerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerViewController.swift; sourceTree = "<group>"; };
-		66A2983F1AA73D0A00F39729 /* DLHamburguerContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerContainerViewController.swift; sourceTree = "<group>"; };
-		66A298411AA8974800F39729 /* DLHamburguerNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerNavigationController.swift; sourceTree = "<group>"; };
 		66A298441AA89A6200F39729 /* DLDemoMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDemoMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DA6CC3E1C4BF478006D5AD9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3DA6CC3F1C4BF478006D5AD9 /* DLHamburguerContainerViewController.swift */,
+				3DA6CC411C4BF478006D5AD9 /* DLHamburguerNavigationController.swift */,
+				3DA6CC421C4BF478006D5AD9 /* DLHamburguerViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		66A297F51AA72DCF00F39729 = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				66A298431AA89A2B00F39729 /* Demo UI */,
-				66A298231AA7308100F39729 /* Classes */,
 				66A298011AA72DD000F39729 /* Supporting Files */,
 			);
 			path = DLHamburguerMenu;
@@ -79,20 +88,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		66A298231AA7308100F39729 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				66A298271AA7343200F39729 /* DLHamburguerViewController.swift */,
-				66A2983F1AA73D0A00F39729 /* DLHamburguerContainerViewController.swift */,
-				66A298411AA8974800F39729 /* DLHamburguerNavigationController.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		66A298431AA89A2B00F39729 /* Demo UI */ = {
 			isa = PBXGroup;
 			children = (
 				66A298031AA72DD000F39729 /* AppDelegate.swift */,
+				3DA6CC3E1C4BF478006D5AD9 /* Classes */,
 				66A298071AA72DD000F39729 /* Main.storyboard */,
 				66A2980A1AA72DD000F39729 /* Images.xcassets */,
 				66A2980C1AA72DD000F39729 /* LaunchScreen.xib */,
@@ -175,11 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A298281AA7343200F39729 /* DLHamburguerViewController.swift in Sources */,
-				66A298421AA8974800F39729 /* DLHamburguerNavigationController.swift in Sources */,
-				66A298401AA73D0A00F39729 /* DLHamburguerContainerViewController.swift in Sources */,
 				66A298451AA89A6200F39729 /* DLDemoMenuViewController.swift in Sources */,
+				3DA6CC461C4BF478006D5AD9 /* DLHamburguerNavigationController.swift in Sources */,
+				3DA6CC471C4BF478006D5AD9 /* DLHamburguerViewController.swift in Sources */,
 				66575E311AA8B4E5001D71F9 /* DLDemoMainContentViewController.swift in Sources */,
+				3DA6CC441C4BF478006D5AD9 /* DLHamburguerContainerViewController.swift in Sources */,
 				66A298041AA72DD000F39729 /* AppDelegate.swift in Sources */,
 				66575E2F1AA8B1A1001D71F9 /* DLDemoRootViewController.swift in Sources */,
 			);
