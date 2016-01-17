@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DA6CC211C4BF14B006D5AD9 /* DLHamburguerContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6CC1C1C4BF14B006D5AD9 /* DLHamburguerContainerViewController.swift */; };
-		3DA6CC231C4BF14B006D5AD9 /* DLHamburguerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6CC1E1C4BF14B006D5AD9 /* DLHamburguerNavigationController.swift */; };
-		3DA6CC241C4BF14B006D5AD9 /* DLHamburguerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6CC1F1C4BF14B006D5AD9 /* DLHamburguerViewController.swift */; };
+		3DA6CC441C4BF478006D5AD9 /* DLHamburguerContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6CC3F1C4BF478006D5AD9 /* DLHamburguerContainerViewController.swift */; };
+		3DA6CC451C4BF478006D5AD9 /* DLHamburguerMenu.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6CC401C4BF478006D5AD9 /* DLHamburguerMenu.podspec */; };
+		3DA6CC461C4BF478006D5AD9 /* DLHamburguerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6CC411C4BF478006D5AD9 /* DLHamburguerNavigationController.swift */; };
+		3DA6CC471C4BF478006D5AD9 /* DLHamburguerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6CC421C4BF478006D5AD9 /* DLHamburguerViewController.swift */; };
+		3DA6CC481C4BF478006D5AD9 /* license in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6CC431C4BF478006D5AD9 /* license */; };
 		66575E2F1AA8B1A1001D71F9 /* DLDemoRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66575E2E1AA8B1A1001D71F9 /* DLDemoRootViewController.swift */; };
 		66575E311AA8B4E5001D71F9 /* DLDemoMainContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66575E301AA8B4E5001D71F9 /* DLDemoMainContentViewController.swift */; };
 		66A298041AA72DD000F39729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A298031AA72DD000F39729 /* AppDelegate.swift */; };
@@ -20,9 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3DA6CC1C1C4BF14B006D5AD9 /* DLHamburguerContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerContainerViewController.swift; sourceTree = "<group>"; };
-		3DA6CC1E1C4BF14B006D5AD9 /* DLHamburguerNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerNavigationController.swift; sourceTree = "<group>"; };
-		3DA6CC1F1C4BF14B006D5AD9 /* DLHamburguerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerViewController.swift; sourceTree = "<group>"; };
+		3DA6CC3F1C4BF478006D5AD9 /* DLHamburguerContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerContainerViewController.swift; sourceTree = "<group>"; };
+		3DA6CC401C4BF478006D5AD9 /* DLHamburguerMenu.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DLHamburguerMenu.podspec; sourceTree = "<group>"; };
+		3DA6CC411C4BF478006D5AD9 /* DLHamburguerNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerNavigationController.swift; sourceTree = "<group>"; };
+		3DA6CC421C4BF478006D5AD9 /* DLHamburguerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerViewController.swift; sourceTree = "<group>"; };
+		3DA6CC431C4BF478006D5AD9 /* license */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license; sourceTree = "<group>"; };
 		66575E2E1AA8B1A1001D71F9 /* DLDemoRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDemoRootViewController.swift; sourceTree = "<group>"; };
 		66575E301AA8B4E5001D71F9 /* DLDemoMainContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDemoMainContentViewController.swift; sourceTree = "<group>"; };
 		66A297FE1AA72DD000F39729 /* DLHamburguerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLHamburguerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,12 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DA6CC1B1C4BF14B006D5AD9 /* Classes */ = {
+		3DA6CC3E1C4BF478006D5AD9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3DA6CC1C1C4BF14B006D5AD9 /* DLHamburguerContainerViewController.swift */,
-				3DA6CC1E1C4BF14B006D5AD9 /* DLHamburguerNavigationController.swift */,
-				3DA6CC1F1C4BF14B006D5AD9 /* DLHamburguerViewController.swift */,
+				3DA6CC3F1C4BF478006D5AD9 /* DLHamburguerContainerViewController.swift */,
+				3DA6CC401C4BF478006D5AD9 /* DLHamburguerMenu.podspec */,
+				3DA6CC411C4BF478006D5AD9 /* DLHamburguerNavigationController.swift */,
+				3DA6CC421C4BF478006D5AD9 /* DLHamburguerViewController.swift */,
+				3DA6CC431C4BF478006D5AD9 /* license */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -91,8 +97,8 @@
 		66A298431AA89A2B00F39729 /* Demo UI */ = {
 			isa = PBXGroup;
 			children = (
-				3DA6CC1B1C4BF14B006D5AD9 /* Classes */,
 				66A298031AA72DD000F39729 /* AppDelegate.swift */,
+				3DA6CC3E1C4BF478006D5AD9 /* Classes */,
 				66A298071AA72DD000F39729 /* Main.storyboard */,
 				66A2980A1AA72DD000F39729 /* Images.xcassets */,
 				66A2980C1AA72DD000F39729 /* LaunchScreen.xib */,
@@ -162,9 +168,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA6CC481C4BF478006D5AD9 /* license in Resources */,
 				66A298091AA72DD000F39729 /* Main.storyboard in Resources */,
 				66A2980E1AA72DD000F39729 /* LaunchScreen.xib in Resources */,
 				66A2980B1AA72DD000F39729 /* Images.xcassets in Resources */,
+				3DA6CC451C4BF478006D5AD9 /* DLHamburguerMenu.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,10 +184,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A298451AA89A6200F39729 /* DLDemoMenuViewController.swift in Sources */,
-				3DA6CC231C4BF14B006D5AD9 /* DLHamburguerNavigationController.swift in Sources */,
-				3DA6CC241C4BF14B006D5AD9 /* DLHamburguerViewController.swift in Sources */,
+				3DA6CC461C4BF478006D5AD9 /* DLHamburguerNavigationController.swift in Sources */,
+				3DA6CC471C4BF478006D5AD9 /* DLHamburguerViewController.swift in Sources */,
 				66575E311AA8B4E5001D71F9 /* DLDemoMainContentViewController.swift in Sources */,
-				3DA6CC211C4BF14B006D5AD9 /* DLHamburguerContainerViewController.swift in Sources */,
+				3DA6CC441C4BF478006D5AD9 /* DLHamburguerContainerViewController.swift in Sources */,
 				66A298041AA72DD000F39729 /* AppDelegate.swift in Sources */,
 				66575E2F1AA8B1A1001D71F9 /* DLDemoRootViewController.swift in Sources */,
 			);
